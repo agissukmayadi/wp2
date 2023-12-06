@@ -1,0 +1,48 @@
+.filter-wrap .filter-btn {
+	cursor: pointer;
+	font-size: 0.9em;
+	color: var(--gray-color);
+	padding: 8px 20px;
+	border-radius: 50px;
+	transition: 0.3s;
+}
+
+.filter-wrap .filter-btn.filter-active {
+	background-color: var(--bs-primary);
+	color: white;
+}
+
+.filter-btn:hover {
+	background-color: var(--bs-primary);
+	color: white;
+}
+
+.cars-wrap {
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+.cars-img {
+	height: 180px;
+	transform: scale(0.9);
+	transition: 0.5s;
+}
+
+.cars-img:hover {
+	transform: scale(1);
+}
+
+.cars-info > h4 {
+	font-size: 1.3em;
+}
+
+.cars-info > p {
+	margin-bottom: 0px;
+}
+
+.cars-wrap hr,
+.cars-info hr {
+	border-top: 2px solid black;
+}
